@@ -1,0 +1,148 @@
+.wrapper {
+    width: 1140px;
+    margin: 0 auto;
+    height:650px;
+  }
+  
+  body {
+    font-family: "Open Sans", sans-serif;
+  }
+
+  h1 {
+    margin-top: 44px;
+    margin-bottom: 44px;
+    font-size: 48px;
+    position: relative;
+    padding-left: 40px;
+    color: #a70a2d;
+    text-transform: capitalize;
+  }
+  main{
+    display: flex;
+}
+  p.ligne {
+    padding-bottom: 28px;
+  }
+  
+  .fa-odnoklassniki-square {
+    color: #e69800;
+    width: 39px;
+    height: 29px;
+    position: absolute;
+    right: 94%;
+  }
+  
+  form i {
+    padding-left: 20px;
+    color: #702283;
+  }
+  
+  main section#indentification {
+    height: 526px;
+    width: 445px;
+    float: left;
+    background: #f5f4f4;
+    margin-top: 302px;
+    margin-left: 120px;
+  }
+  main main section#inscription {
+    height: 618px;
+    width: 445px;
+    float: right;
+    background: #f5f4f4;
+    margin-top: 302px;
+  }
+  
+  .button {
+    width: calc(100% - 42px );
+    height: 38px;
+    padding: 0px 21px 0px 21px;
+    background: #702283;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+  .button:hover {
+    background: #702283;
+  }
+  
+  main section#inscription {
+    height:550px;
+    width: 445px;
+    border: solid 4px #702283;
+    border-radius: 25px;
+    background:#ffffff;
+    margin-top:40px;
+  }
+  
+  label {
+    text-align: left;
+    display: inline;
+    color: #424242;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  input {
+    width: calc(100% - 58px );
+    margin: 0 auto;
+    font-size: 14px;
+    margin: 11px 21px 28px 21px;
+    border: 1px solid #d5d5d5;
+    background: white;
+    height: 32px;
+    padding-left: 15px;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  [type=checkbox] {
+    width: 15px;
+    border-radius: 30px;
+    display: inline-block;
+    margin: 1px 10px 5px 10px;
+    vertical-align: middle;
+    text-transform: lowercase;
+    padding-bottom: 45px;
+  }
+  
+  a {
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: lowercase;
+    padding: 0px 27px 0px 8px;
+    vertical-align: right;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  header{
+    display: flex;
+    justify-content: space-between;
+    background-color:#702283;
+    height:71px;
+
+}
+.para1{
+    margin-left:15%;
+    width: 160px;
+    height: 80px;
+}
+.para2{
+    margin-right: 10%;
+    margin-top:20px;
+    color: #FFFFFF;
+
+}
+.pieddepasse{
+    height:50px;
+    background-color:#702283;
+}
+.pieddepasse{
+    text-align:center;
+    color: #FFFFFF;
+}
+.photooo img{
+    width:750px;
+    margin-top:35px;
+}
