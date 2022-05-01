@@ -42,7 +42,7 @@ if(isset($_POST['validerabnmt']))
     <header class="container-fluid">
         <img src="./images/logo.svg.png" class="para1">
         
-        <h3 class="para2abonnement"><a style="text-decoration:none; color:#ffffff" href="index.php">Deconnexion</a><i class="fa-solid fa-user"></i></h3>
+        <h3 class="para2abonnement"><a style="text-decoration:none; color:#ffffff; font-size:18px;" href="index.php">Deconnexion</a><i class="fa-solid fa-user"></i></h3>
         
     </header>
     <section class="corpsdepagedeux">
