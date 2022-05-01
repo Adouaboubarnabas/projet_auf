@@ -4,7 +4,7 @@ $bdd = new PDO('mysql:host=127.0.0.1;dbname=auf', 'root','');
 if(isset($_POST['seconnecter'])){
         if(!empty($_POST['mailconnect']) AND !empty($_POST['mdpconnect'])){
             $mailconnect = htmlspecialchars($_POST['mailconnect']);
-            $mdpconnect = ($_POST['mdpconnect']);
+            $mdpconnect = sha1($_POST['mdpconnect']);
 
             $recupUser = $bdd->prepare('SELECT * FROM gest WHERE email = ? AND motdepasse = ?');
             $recupUser->execute(array($mailconnect, $mdpconnect));
@@ -40,7 +40,7 @@ if(isset($_POST['seconnecter'])){
 <body>
     <header class="container-fluid">
         <img src="./images/logo.svg.png" class="para1">
-        <!-- <h3 class="para2">Connexion </h3> -->
+        <h4 class="para2"><a href="incription.php" style="text-decoration:none; color:#ffffff; font-size:18px;">Inscrivez-vous ici</a></h4>
     </header>
     <section class="container corp2page">
         <p class="nomapli" id="nomapplitext">
